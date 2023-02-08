@@ -1,0 +1,164 @@
+    1  passwd
+    2  wget www.github.com
+    3  history > cmds.log
+    4  cd Desktop/project
+    5  cd project
+    6  git push origin ws1
+    7  cd C:\Users\Ricques\Desktop\project
+    8  cd Desktop
+    9  git init
+   10  cd ~/Desktop/project
+   11  cd ~/Desktop
+   12  mkdir Desktop
+   13  git init
+   14  touch cmds.log
+   15  ls
+   16  git status
+   17  git add cmds.log
+   18  git commit "ws1 commit"
+   19  git commit -m "ws1 commit"
+   20  wget www.github.com
+   21  mkdir /tmp/ws1
+   22  git init
+   23  history > cmds.log
+   24  touch cmds.log
+   25  ls
+   26  git status
+   27  git add cmds.log
+   28  git commit -m "ws1 commit"
+   29  git status
+   30  git commit -m"commit"
+   31  git remote add origin https://github.com/ricquesnguyen/cs131.git
+   32  git branch -M main
+   33  git push -u origin main
+   34  git commit -m "ws1 commit"
+   35  git config --global user.name ricques23sp
+   36  git commit -m "ws1 commit"
+   37  git remote add origin https://github.com/ricquesnguyen/cs131.git
+   38  git add .
+   39  git commit -m "ws1 commit"
+   40  git init
+   41  git add cmds.log
+   42  git commit -m "ws1 commit"
+   43  git branch -M main
+   44  git remote add origin https://github.com/ricquesnguyen/cs131.git
+   45  git push -u origin main
+   46  git clone https://github.com/ricquesnguyen/cs131.git
+   47  git push -u origin main
+   48  mkdir cs131
+   49  pwd
+   50  cat index index.html
+   51  ls -l index.html
+   52  ls -a
+   53  ls
+   54  ls -t
+   55  mkdir sample
+   56  touch a.txt
+   57  ls
+   58  mv a.txt ./sample/
+   59  cd sample/
+   60  ls
+   61  touch b.txt
+   62  touch ab.txt
+   63  touch aa.c
+   64  ls
+   65  ls ?.txt
+   66  ls -l ?.txt
+   67  ls -l *.txt
+   68  ls -l *.c
+   69  find ./ -type f -name "*.txt"
+   70  cd
+   71  nano
+   72  cat feb1.txt
+   73  nano feb1.txt
+   74  ls
+   75  mkdir vimsamples
+   76  cd vimsamples/
+   77  ls
+   78  wim sample.txt
+   79  vim sample.txt
+   80  cat sample.txt
+   81  vim sample.txt
+   82  vim sample2.txt
+   83  cat sample2.txt
+   84  sort searchfile.txt
+   85  wc searchfile.txt
+   86  cd
+   87  sort searchfile.txt
+   88  sort sample2.txt
+   89  cd vimsamples/
+   90  sort sample2.txt
+   91  wc sample2.txt
+   92  grep john sample2.txt
+   93  grep phrase sample2.txt
+   94  grep -v phrase sample2.txt
+   95  cd
+   96  echo "me"
+   97  pwd
+   98  echo $HOME
+   99  echo "HOME"
+  100  echo '$HOME'
+  101  echo "$HOME"
+  102  'pwd'
+  103  mkdir cs131
+  104  cd cs131
+  105  mkdir ws2
+  106  cd ws2
+  107  mv ws2 /cs131/
+  108  mkdir cs131/ws2
+  109  cd
+  110  ls
+  111  cd cs131
+  112  cd ws2
+  113  ls
+  114  clear
+  115  cd cs131
+  116  ls
+  117  cd
+  118  cd cs131
+  119  cd ws2
+  120  wget$ wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  121  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  122  grep -E \tY\t amazon_reviews_us_Books_v1_02.tsv
+  123  grep -E \tY\t amazon_reviews_us_Books_v1_02.tsv.gz
+  124  unzip amazon_reviews_us_Books_v1_02.tsv.gz
+  125  unzip amazon_reviews_us_Books_v1_02.tsv
+  126  gzip -d amazon_reviews_us_Books_v1_02.tsv.gz
+  127  grep Y 
+  128  grep Y amazon_reviews_us_Books_v1_02.tsv
+  129  grep -E '\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  130  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  131  grep -C '\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  132  grep -CP '\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  133  grep -C Y amazon_reviews_us_Books_v1_02.tsv
+  134  grep -c Y amazon_reviews_us_Books_v1_02.tsv
+  135  grep -c N amazon_reviews_us_Books_v1_02.tsv
+  136  grep -ce '\tN\t' amazon_reviews_us_Books_v1_02.tsv
+  137  grep -ce N amazon_reviews_us_Books_v1_02.tsv
+  138  grep -o Y amazon_reviews_us_Books_v1_02.tsv
+  139  clear
+  140  grep Y amazon_reviews_us_Books_v1_02.tsv
+  141  grep -P \tY\t amazon_reviews_us_Books_v1_02.tsv
+  142  wc amazon_reviews_us_Books_v1_02.tsv
+  143  grep -cP \tY\t amazon_reviews_us_Books_v1_02.tsv
+  144  grep -cP 'Y' amazon_reviews_us_Books_v1_02.tsv
+  145  grep -cP 'N' amazon_reviews_us_Books_v1_02.tsv
+  146  grep -cP '\tN\t' amazon_reviews_us_Books_v1_02.tsv
+  147  grep -cP '\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  148  grep -E '\tY\t' amazon_reviews_us_Books_v1_02.tsv
+  149  grep -E '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  150  grep -PE '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  151  grep -E '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  152  grep -E [Y] amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  153  grep -E '[Y]' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  154  grep -E '[\tY\t]' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  155  grep -wE [Y] amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  156  grep -wE [N] amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  157  grep -wE '[N]' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  158  grep -wE '(^|\s)N($|\s)' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  159  grep -E '(^|\s)N($|\s)' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  160  grep -wE '(^|\s)Y($|\s)' amazon_reviews_us_Books_v1_02.tsv | wc -lw
+  161  grep -wE '(^|\s)Y($|\s)' amazon_reviews_us_Books_v1_02.tsv | wc -lw > counts.txt
+  162  grep -wE '(^|\s)N($|\s)' amazon_reviews_us_Books_v1_02.tsv | wc -lw >> counts.txt
+  163  vi counts.txt
+  164  history >cmds.log
